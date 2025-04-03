@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+header {
+   display: inline-flex;
+justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    width: 100%;
+    font-family: "Bodoni Moda";
+     font-weight: 800;
+  font-style: normal;
+  
+}
+.logo{
+    font-family: 'Bodoni Moda';
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(200, 230, 230);
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+h1{
+  color: rgb(89, 4, 4);
+  text-align: center;
+  font-family:"Bodoni Moda", serif;
+}
+h2{
+    text-align: center;
+    font-family: "Ultra",serif;
+
+}
+h3{
+    font-family: "Solway", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p{
+    font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+nav {
+    background-color: rgb(167, 61, 13); 
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav ul li a {
+    color: #F5F1E9; /* Creamy White */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E8B923; 
+
+}
+body{
+    background-color: wheat;
+}
+.item{
+    margin-bottom: 40px;
+}
+.item img {
+    border-radius: 10px;
+}
+.item img:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+.image-caption{
+    text-align:center;
+    font-family:"Cinzel", serif;
+    font-weight: 900;
+  font-style: normal;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.gallery img, 
+#about img, 
+#latest-posts img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover, 
+#about img:hover, 
+#latest-posts img:hover {
+    transform: scale(1.05);
+}
+
+/* About Section */
+#about img {
+    width: 48%;
+    display: inline-block;
+    margin: 1%;
+}
+
+/* Latest Posts */
+#latest-posts article {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #fffaf0;
+    border-left: 5px solid #ff9800;
+    border-radius: 5px;
+}
+
+#latest-posts article img {
+    width: 48%;
+    display: inline-block;
+    margin: 1%;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3a2d27;
+    color: white;
+    font-size: 14px;
+}
+div{
+	text-align: center;
+}
+footer {
+    background-color: black; 
+    color: #F5F1E9; 
+    padding: 1.5rem 0;
+    text-align: center;
+    border-top: 2px solid #A8B5A2;
+    border-radius: 20px; 
+}
